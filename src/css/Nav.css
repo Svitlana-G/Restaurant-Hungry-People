@@ -1,0 +1,17 @@
+nav {
+    display: flex;
+    padding-top: 3vh;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 0.75rem;
+    color:#000
+}
