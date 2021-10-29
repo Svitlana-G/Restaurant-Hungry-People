@@ -40,11 +40,11 @@
     padding-left: 8px;
 }
 
-.line{
-    height: 5px;
+.header-section .line{
+    /* height: 5px;
     width: 6%;
     background: #E8C300;
-    border-radius: 50px;
+    border-radius: 50px; */
     margin: 2vh 47% 3vh 47%;
 }
 

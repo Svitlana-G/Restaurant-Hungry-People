@@ -1,0 +1,48 @@
+.about{
+    display: flex;
+    margin: 6vh 0;
+    align-items: center;
+    text-align: center;  
+}
+
+.about section{
+    flex-basis: 50%;
+    width: 50%;
+}
+
+.about h4,p{
+    padding: 0 5% 0 10%;
+    margin: 0;
+}
+
+.about section:nth-of-type(2){
+    padding-left: 5%;
+}
+
+.about section img{
+    width: 100%;
+}
+
+.about h2{
+    font-size: 2.25rem;
+    text-transform: uppercase;
+    font-family: Banny;
+    margin: 0;
+}
+
+.about .line{
+    margin: 1.5vh auto;
+}
+
+.about h4 {
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.75rem;
+}
+
+.about p {
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    padding-top: 1.5vh;
+}
