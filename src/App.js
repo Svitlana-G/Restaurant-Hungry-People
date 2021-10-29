@@ -2,6 +2,7 @@
 import './App.css';
 // import Navigation from './components/Navigation';
 import Header from './components/Header';
+import Footer from './components/Footer';
 import {
   BrowserRouter as Router,
   Switch,
@@ -13,7 +14,8 @@ function App() {
   return (
     // <div className="App">
     <Router>
-      <Header></Header>
+      <Header />
+      <Footer />
     </Router>
     // </div>
   );
