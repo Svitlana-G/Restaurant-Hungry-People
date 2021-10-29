@@ -1,0 +1,92 @@
+.header{
+    background: url(../img/headerbg.jpg) center / cover no-repeat;
+}
+
+.header-section{
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 3.1fr 1fr;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.arbeits-zeiten{
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    padding-right: 90px;
+    padding-bottom: 13vh;
+}
+
+.header-section article {
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    text-align: center;
+    padding-top: 17vh;
+}
+
+
+.header-section h1{
+    text-transform: uppercase;
+    font-size: 6rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Banny';    
+}
+
+.header-section h4{
+    margin-bottom: 0;
+    letter-spacing: 0.5em;
+    font-size: 0.75rem;
+    margin-top: 12vh;
+    padding-left: 8px;
+}
+
+.line{
+    height: 5px;
+    width: 6%;
+    background: #E8C300;
+    border-radius: 50px;
+    margin: 2vh 47% 3vh 47%;
+}
+
+.btn-flex {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1vh 31% 10vh 31%;
+}
+.btn{
+    border-radius: 5px;
+    padding: 2vh 0;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    flex:50%;
+    font-size: .75rem;
+}
+
+.btn-yellow {
+    background-color: #E8C300;
+    margin-right: 5%;    
+}
+
+.btn-transparent{
+    margin-left: 5%;
+}
+
+.header-section article:nth-of-type(2) img{
+    margin-bottom: 15vh;
+}
+
+.line-vert {
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    position: fixed;
+    right: 50%;
+    top: 24vh;
+    height: 80vh;
+}
+
+.header-section article:nth-of-type(3){
+    padding-top: 28vh;
+    padding-left: 25%;
+}
+
+.header-section article:nth-of-type(3) div{
+    padding-top: 2vh;
+}

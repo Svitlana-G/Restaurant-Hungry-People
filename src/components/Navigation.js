@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom"
-import '../css/Nav.css'
+import '../css/Navigation.css'
 const Navigation = () => {
     return (
         <nav>
+            <div class="logo"> </div>
             <ul>
                 <li>
                     <Link to="/">HOME</Link>
@@ -17,7 +18,6 @@ const Navigation = () => {
                     <Link to="/">BOOKING</Link>
                 </li>
             </ul>
-            <img src="../img/logo.svg" alt="Logo" />
             <ul>
                 <li>
                     <Link to="/">MENU</Link>
@@ -35,7 +35,7 @@ const Navigation = () => {
                     <Link to="/">FEEDBACK</Link>
                 </li>
             </ul>
-        </nav>
+        </nav >
     );
 }
 
