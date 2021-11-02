@@ -23,7 +23,6 @@
     padding-top: 17vh;
 }
 
-
 .header-section h1{
     text-transform: uppercase;
     font-size: 6rem;
@@ -72,14 +71,15 @@
 
 .header-section article:nth-of-type(2) img{
     margin-bottom: 15vh;
+    position: relative;
 }
 
 .line-vert {
     border-right: 1px solid rgba(255, 255, 255, 0.2);
-    position: fixed;
+    position: absolute;
     right: 50%;
     top: 24vh;
-    height: 66.4vh;
+    height: 76.4vh;
 }
 
 .header-section article:nth-of-type(3){
