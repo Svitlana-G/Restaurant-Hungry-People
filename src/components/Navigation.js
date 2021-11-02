@@ -6,33 +6,33 @@ const Navigation = () => {
             <div class="logo"> </div>
             <ul>
                 <li>
-                    <Link to="/">HOME</Link>
+                    <Link to="/" exact>HOME</Link>
                 </li>
                 <li>
-                    <Link to="/">ABOUT</Link>
+                    <Link to="/" exact>ABOUT</Link>
                 </li>
                 <li>
-                    <Link to="/">TEAM</Link>
+                    <Link to="/team">TEAM</Link>
                 </li>
                 <li>
-                    <Link to="/">BOOKING</Link>
+                    <Link to="/booking">BOOKING</Link>
                 </li>
             </ul>
             <ul>
                 <li>
-                    <Link to="/">MENU</Link>
+                    <Link to="/menu">MENU</Link>
                 </li>
                 <li>
-                    <Link to="/">GALERIE</Link>
+                    <Link to="/galerie">GALERIE</Link>
                 </li>
                 <li>
-                    <Link to="/">EVENTS</Link>
+                    <Link to="/events">EVENTS</Link>
                 </li>
                 <li>
-                    <Link to="/">CONTACT</Link>
+                    <Link to="/contact">CONTACT</Link>
                 </li>
                 <li>
-                    <Link to="/">FEEDBACK</Link>
+                    <Link to="/feedback">FEEDBACK</Link>
                 </li>
             </ul>
         </nav >

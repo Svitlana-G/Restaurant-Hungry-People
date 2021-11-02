@@ -1,0 +1,24 @@
+.team {
+    background: url(../img/team-bg.png) center/cover no-repeat;
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+}
+
+.team .text-image{
+    flex-direction: row-reverse;
+    margin-top: 0;
+}
+
+.team h5{
+    color: #FFFFFF;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.75rem;
+    padding-top: 5vh;
+    margin: 0;
+}
+
+.team .text-image section img{
+    width: 80%;
+}

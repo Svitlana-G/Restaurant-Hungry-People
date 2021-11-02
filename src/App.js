@@ -10,16 +10,22 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Team from './components/Team';
 
 function App() {
   return (
-    // <div className="App">
-    <Router>
-      <Header />
-      <About />
-      <Footer />
-    </Router>
-    // </div>
+    <div className="App">
+      <Router>
+        <div>
+          <Header />
+          <Switch>
+            <Route path="/team" component={Team} />
+            <Route path="/" component={About} exact />
+          </Switch>
+          <Footer />
+        </div>
+      </Router>
+    </div>
   );
 }
 
