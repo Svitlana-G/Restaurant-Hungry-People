@@ -15,4 +15,9 @@
   width: 6%;
   background: #E8C300;
   border-radius: 50px;
+  margin: 0 auto;
+}
+
+span {
+  font-weight: bold;
 }

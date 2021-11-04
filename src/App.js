@@ -11,6 +11,7 @@ import {
   Link
 } from "react-router-dom";
 import Team from './components/Team';
+import Booking from './components/Booking';
 
 function App() {
   return (
@@ -18,10 +19,11 @@ function App() {
       <Router>
         <div>
           <Header />
-          <Switch>
+          <Booking />
+          {/* <Switch>
             <Route path="/team" component={Team} />
             <Route path="/" component={About} exact />
-          </Switch>
+          </Switch> */}
           <Footer />
         </div>
       </Router>
