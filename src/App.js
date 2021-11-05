@@ -12,6 +12,7 @@ import {
 } from "react-router-dom";
 import Team from './components/Team';
 import Booking from './components/Booking';
+import Galerie from './components/Galerie';
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
       <Router>
         <div>
           <Header />
-          <Booking />
+          <Galerie />
           {/* <Switch>
             <Route path="/team" component={Team} />
             <Route path="/" component={About} exact />
