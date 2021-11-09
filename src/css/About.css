@@ -23,19 +23,6 @@
     width: 100%;
 }
 
-.about h2{
-    font-size: 2.25rem;
-    text-transform: uppercase;
-    font-family: Banny;
-    margin: 0;
-}
-
-.about h4 {
-    font-size: 1.125rem;
-    font-weight: 700;
-    line-height: 1.75rem;
-}
-
 .about p {
     font-size: 0.875rem;
     font-weight: 400;

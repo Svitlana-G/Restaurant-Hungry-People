@@ -13,6 +13,7 @@ import {
 import Team from './components/Team';
 import Booking from './components/Booking';
 import Galerie from './components/Galerie';
+import Menu from './components/Menu';
 
 function App() {
   return (
@@ -20,11 +21,12 @@ function App() {
       <Router>
         <div>
           <Header />
-          <Galerie />
-          {/* <Switch>
+          <Switch>
             <Route path="/team" component={Team} />
+            <Route path="/booking" component={Booking} />
+            <Route path="/menu" component={Menu} />
             <Route path="/" component={About} exact />
-          </Switch> */}
+          </Switch>
           <Footer />
         </div>
       </Router>

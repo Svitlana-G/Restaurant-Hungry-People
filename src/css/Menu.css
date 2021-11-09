@@ -1,0 +1,57 @@
+.menu {
+    background-color: #E5E5E5;
+    padding: 7vh 15%;
+}
+
+.prices{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 5%;
+    margin: 0 auto;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    padding-inline-start: 0;
+    justify-content: center;
+    padding: 3vh 0;
+}
+
+.menu ul li{
+    padding: 1vh 3%;
+    border-right: 1px solid rgba(51, 51, 51, 0.2);
+    font-size: .75rem;
+    font-weight: bold;
+    line-height: 1.125rem;
+    color: #333333
+}
+
+.menu ul li:last-of-type{
+    border-right: none;
+}
+
+.menu h4 {
+    margin: 2vh 27%;
+}
+
+.menu .prices p{
+    margin: 0;
+}
+
+.menu .prices div{
+    padding-bottom: 1vh;
+    text-align: left;
+    color: #333333;
+    font-family: 'Banny';  
+    padding-top: 1vh;  
+}
+
+.menu .prices p:nth-of-type(2){
+    font-size: .75rem;
+    font-style: normal;
+}
+
+.menu .prices p:nth-of-type(1){
+    font-size: 1.125rem;
+}

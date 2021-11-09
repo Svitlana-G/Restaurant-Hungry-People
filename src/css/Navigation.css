@@ -4,7 +4,7 @@ nav {
     position: relative;
 }
 
-ul{
+nav ul{
     list-style: none;
     display: flex;
     width: 38%;
@@ -14,17 +14,17 @@ ul{
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     margin-bottom: 0;
 }
-ul:nth-of-type(1){
+nav ul:nth-of-type(1){
     margin-right: 7%;
     margin-left: 5%;
 }
 
-ul:nth-of-type(2){
+nav ul:nth-of-type(2){
     margin-left: 7%;
     margin-right: 5%;
 }
 
-ul li a{
+nav ul li a{
     text-decoration: none;
     font-size: 0.75rem;
     color:#fff;
@@ -32,7 +32,7 @@ ul li a{
     line-height: 1.125rem;
 }
 
-.logo {
+nav .logo {
     position: absolute;
     left: 0;
     width: 100%;
