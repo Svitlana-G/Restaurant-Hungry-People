@@ -32,14 +32,23 @@ nav ul li a{
     line-height: 1.125rem;
 }
 
-nav .logo {
+/* nav .logo {
     position: absolute;
-    left: 0;
-    width: 100%;
+    left: 44%;
+    width: 12%;
     height: 200px;
     margin-top: -28px;
     background-image: url(../img/logo.svg);
     background-repeat: no-repeat;
     background-position: center;
+    z-index: 1;
+} */
+
+nav .logo {
+    position: absolute;
+    left: 45%;
+    width: 10%;
+    height: auto;
+    margin-top: -16px;
     z-index: 1;
 }

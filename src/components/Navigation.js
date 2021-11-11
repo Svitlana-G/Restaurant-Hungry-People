@@ -3,7 +3,8 @@ import '../css/Navigation.css'
 const Navigation = () => {
     return (
         <nav>
-            <div class="logo"> </div>
+            {/* <div className="logo"> */}
+            <img src="../img/logo.svg" alt="" className="logo" />
             <ul>
                 <li>
                     <Link to="/" exact>HOME</Link>
