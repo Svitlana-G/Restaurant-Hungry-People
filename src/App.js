@@ -14,6 +14,7 @@ import Team from './components/Team';
 import Booking from './components/Booking';
 import Galerie from './components/Galerie';
 import Menu from './components/Menu';
+import Events from './components/Events';
 
 function App() {
   return (
@@ -25,6 +26,8 @@ function App() {
             <Route path="/team" component={Team} />
             <Route path="/booking" component={Booking} />
             <Route path="/menu" component={Menu} />
+            <Route path="/galerie" component={Galerie} />
+            <Route path="/events" component={Events} />
             <Route path="/" component={About} exact />
           </Switch>
           <Footer />
