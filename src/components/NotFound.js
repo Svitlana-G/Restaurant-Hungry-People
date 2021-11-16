@@ -1,6 +1,10 @@
+import '../css/NotFound.css'
+
 const NotFound = () => {
     return (
-        <div className="not-found"></div>
+        <div className="not-found">
+            <img src="../img/sailor.png" alt="" />
+        </div>
     );
 }
 

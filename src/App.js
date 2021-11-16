@@ -17,6 +17,7 @@ import Menu from './components/Menu';
 import Events from './components/Events';
 import Contact from './components/Contact';
 import Feedback from './components/Feedback';
+import NotFound from './components/NotFound';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
             <Route path="/contact" component={Contact} />
             <Route path="/feedback" component={Feedback} />
             <Route path="/" component={About} exact />
+            <Route component={NotFound} />
           </Switch>
           <Footer />
         </div>
