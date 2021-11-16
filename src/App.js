@@ -16,6 +16,7 @@ import Galerie from './components/Galerie';
 import Menu from './components/Menu';
 import Events from './components/Events';
 import Contact from './components/Contact';
+import Feedback from './components/Feedback';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
             <Route path="/galerie" component={Galerie} />
             <Route path="/events" component={Events} />
             <Route path="/contact" component={Contact} />
+            <Route path="/feedback" component={Feedback} />
             <Route path="/" component={About} exact />
           </Switch>
           <Footer />
